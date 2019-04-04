@@ -6,4 +6,5 @@ def all_appartments_view(request):
     apts=Apt.objects.all()
     return render(request, 'apt_list.html', {"apts":apts})
 
-# Create your views here.
+def map_view(request):
+    return render(request, 'map.html')
