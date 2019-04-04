@@ -19,5 +19,5 @@ from appartlist.views import all_appartments_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('all/', all_appartments_view),
+    path('', all_appartments_view),
 ]
